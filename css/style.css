@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    background:url(../images/bgc.jpg) no-repeat;
+    background-size: cover; 
+}
+.bg1{
+    width: 100%;
+    background-color: rgba(201, 180, 204, 0.5);
+}
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+    /* background-color: olive; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    /* background-color: pink; */
+}
+.logo img{
+    margin-top: 6px;
+}
+.top-nav{
+    width: 80%;
+    /* background-color: green; */
+}
+.nav{
+    margin-left: 25%;
+}
+.top-nav ul{
+}
+.top-nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.top-nav ul li a{
+	text-decoration: none;
+	color: #000;
+    display: inline-block;
+    padding-left: 15px;
+
+}
+.top-nav ul li a:hover{
+	color: firebrick;
+}
+.bg2{
+    background-color: rgb(250, 240, 255, 0.5);
+}
+.best_products h1{
+    margin: 0;
+    text-align: center;
+    padding: 50px 0;
+    color: red;
+}
+.list_products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.bg3{
+    background-color: rgb(250, 240, 255, 0.5);
+}
+.bg4{
+    background-color: rgb(250, 240, 255, 0.5);
+}
